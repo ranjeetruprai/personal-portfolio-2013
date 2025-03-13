@@ -1,0 +1,226 @@
+html {
+	background:#e1e1e1;
+	color:#08031d;
+}
+body {
+	border-top:10px solid #09cfb4;	
+	font-size:12px;
+	font-family: 'Josefin Sans', arial, serif;
+}
+
+/*header*/
+header {
+	margin:0 auto;
+	width:1100px;
+	background:#e1e1e1;
+	height:152px;
+}
+	header #branding {
+		background:#fff;
+		opacity:0.95;
+		padding:28px 14px 15px;
+		width:192px;
+		height:69px;
+		margin-top:-10px;
+		float:left;
+		-moz-box-shadow: 0 5px 10px #999;
+		-webkit-box-shadow: 0 5px 10px #999;
+		box-shadow: 0 5px 10px #999;
+	}
+	header #strapline {
+		float:left;	
+		margin:48px 0 0 16px;
+		width:864px;
+	}
+	header p {
+		font-size:26px;
+		font-weight:400;
+		color:#08031d;
+	}
+/*main*/
+section#main {
+	clear:both;
+	margin:0 auto 20px;
+	width:1100px;
+	min-height:900px;
+}
+#main figure {
+	float:left;
+	width:220px;
+	height:220px;
+	overflow:hidden;
+}
+#main .wide {
+	width:440px;
+}
+#main .boxmoyen#logo {border-bottom:0 none;overflow:visible}
+#main .boxmoyen#logo a {position:relative;top:-5px;}
+
+#main figure p.image {
+	width:220px;
+}
+#main .wide p.image {
+	width:440px;
+}
+#main figure {
+	/*background:url(images/siteobjects/ajax-loader.gif) no-repeat center center;*/
+	position:relative;
+}
+#main figure h2 {
+	z-index:3;
+	width:220px;
+	margin-top:160px;
+	height:40px;
+	padding:8px 10px 12px;
+	position:relative;
+	font-size:18px;
+	line-height:1.0em;
+	background:#1d1265;
+	display:none;
+	color:#fff;
+	opacity:0.9;
+	font-weight:600;
+}
+#main figure h2 span {
+	font-size:13px;
+	font-weight:400;
+}
+#main .wide h2 {
+	width:440px;
+}
+#main figure h2 a {
+	display:block;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+#main figure p.image {
+	overflow:hidden;
+	height:220px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#main figure p.image a {
+	display:block
+}
+
+/*hover*/
+#main figure h2.hover, #main figure h2:hover  {
+	cursor:pointer;
+	background:#fff;
+	color:#1d1265;
+	border-top:1px solid #1d1265;
+}
+#main figure h2 a:hover {
+	text-decoration:none
+}
+/*
+#main figure h2 span {position:absolute;right:15px;bottom:-10px;background:url(images/btn-home-hover.png);display:block;width:20px;height:20px;}
+#main figure h2.hover span,
+#main figure h2:hover span {background-position:0 -20px}
+*/
+#main figure p.imageHover {
+	overflow:hidden;
+	height:220px;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:2;
+}
+#main figure p.imageHover a {
+	display:block;
+}
+
+
+
+/*footer*/
+footer {
+	clear:both;
+	background:#08031d;
+	width:100%;
+	color:#e1e1e1;
+}
+	.aboutme {
+		width:1100px;
+		margin:0 auto;
+		padding:10px 0 20px;
+		min-height:280px;
+	}
+	.aboutme section {
+		margin-right:20px;
+		width:420px;
+		float:left;
+	}
+		.aboutme section h2 {
+			border-bottom:1px solid #e1e1e1;
+			padding-bottom:10px;
+			margin-bottom:5px;
+		}
+
+	.aboutme section.last {
+		width:220px;
+		margin:0;
+	}
+.copyrightcontainer {
+	clear:both;
+	background:#09cfb4;
+	width:100%;
+	color:#fff;
+	height:80px;
+	padding:10px 0;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.copyrightcontainer .copyright {
+	width:1100px;
+	margin:0 auto;
+	text-align:right;
+}
+.copyright h2 {
+	color:#09cfb4;
+	font-size:40px;
+	text-transform:lowercase;
+	background:url("../images/logos/ranjeetruprai_inverted.jpg") no-repeat top left;
+	width:161px;
+	height:57px;
+	float:right;
+	margin:0 0 5px;
+}
+.copyright h2 span {
+	display:none;	
+}
+.copyright p {
+	clear:both;
+	font-size:10px;
+	margin:0;
+}
+/*
+.typekit-badge {
+	display:none!important;	
+}
+*/
+
+::-webkit-validation-bubble {
+	font-weight:normal;
+	border:none;
+}
+::-webkit-validation-bubble-arrow {
+	background: #fff;
+	padding: 3px;
+	border:none;
+}
+::-webkit-validation-bubble-arrow-clipper {
+	background: #08031d;
+	border:none;
+}
+::-webkit-validation-bubble-message {	
+	font-size:10px;
+	color:#fff;
+	font-family:Verdana, Geneva, sans-serif;
+	background: #08031d;
+	padding: 1em;
+	margin-top: 3px;
+	border:none;
+}

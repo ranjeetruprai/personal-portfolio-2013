@@ -1,0 +1,164 @@
+/*default*/
+h1, h2, h3, h4, h5 {  
+	margin: 0;
+	font-size:100%;
+	padding:0;
+}
+img {
+	border:0;
+	padding:0;
+	margin:0;
+}
+.hidden {
+	position: absolute;
+	top: -1000px;
+	left: 0px;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+/*paras*/
+p {
+	
+}
+footer p {
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+.error {
+	font-weight:bold;
+	font-style:italic;
+	margin:0 0 5px 0;
+	color:#09CFB4;
+}
+/*links*/
+a, a:link, a:hover, a:visited {
+	outline:none;
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover, a:active, a:focus {
+	text-decoration:underline;
+}
+
+/*headings*/
+h1 {
+	color:#09cfb4;
+	font-size:40px;
+	text-transform:lowercase;
+	background:url("../images/logos/ranjeetruprai.jpg") no-repeat top left;
+	width:191px;
+	height:69px;
+}
+h1 span {
+	display:none;	
+}
+h2 {
+	font-size:24px;
+	margin: 0 0 10px 0;
+	font-weight:normal;
+}
+h3 {
+	font-size:85%;
+	margin: 0 0 5px 0;
+}
+
+/*lists*/
+ul {
+	font-size:12px;
+	margin:0 0 10px;	
+	float:left;
+	padding:0;
+	list-style:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+ul li {
+	float:left;
+	clear:both;
+	margin:0;
+	padding:0;
+	border-bottom:1px dotted #180f3f;
+}
+ul li a {
+	float:left;
+	clear:both;
+	padding:7px 0;
+	color:#ccc;
+}
+footer section ul li a {
+	width:420px;
+}
+footer section.last ul li a {
+	width:220px;
+}
+ul li a:hover {
+	border-left:5px solid #09cfb4;
+	padding-left:5px;
+	width:210px;
+	color:#fff;
+	text-decoration:none;
+}
+/*forms*/
+form {
+	font-family:Arial, Helvetica, sans-serif;	
+	margin:0 0 20px 0;
+}
+fieldset {
+	border:none;
+}
+legend {
+	display:none;
+}
+label {
+	width:100%;
+	clear:both;
+	float:left;
+	padding:0 0 3px 2px;
+	font-size:14px;
+}
+input {
+	font-size:14px;
+	margin:0 0 10px 0;
+	width:212px;
+	padding:4px 2px;
+	background:#ccc;
+	border:none;
+	color:#08031d;
+	border: solid 2px #ccc;
+}
+input.button {
+	float:right;
+	width:60px;
+	background:#fff;
+	border:none;
+	padding:6px 0;
+	margin:0;
+	cursor:pointer;
+	color:#08031d;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+}
+input.button:hover {
+	background:#09cfb4;
+	color:#fff;
+}
+textarea {
+	width:412px;
+	margin:3px 0 10px 0;
+	height:72px;
+	border:none;
+	background:#ccc;
+	padding:2px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#08031d;
+	resize:none;
+	border: solid 2px #ccc;
+	font-size:14px;
+}
+.focusField{
+	background:#fff;
+	border:2px solid #09cfb4;
+}

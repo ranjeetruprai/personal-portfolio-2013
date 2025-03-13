@@ -1,0 +1,11 @@
+/*
+    FOR SCREENS LARGER THAN 1100
+*/
+
+
+header, section#main, .aboutme, .copyrightcontainer .copyright {
+	width:440px;
+}
+header #strapline {
+	width:204px;
+}
